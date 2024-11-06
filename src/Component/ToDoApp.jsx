@@ -43,7 +43,7 @@ export const ToDoApp = () => {
             p-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
                 <h1 id="todo" className="text-5xl font-bold shadow-lg shadow-black  text-white drop-shadow-lg">TODO LIST <RiCalendarTodoFill className="inline-block" /></h1>
                 <div>
-                    <div className="flex mt-5">
+                    <div className="flex mt-4">
                         <label className="font-bold text-lg">Enter Your Text Here:- <TbSignRightFilled className="text-[40px] inline-block" /></label>
                         <input type="text" className="w-[750px] rounded-lg bg-sky-100 px-3
                         border-none outline-none hover:-translate-y-2 hover:transition-all duration-500 ease-in-out " placeholder="Enter your text here" onChange={handletext} value={value} />
